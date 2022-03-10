@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785372310257",
+    "project_id": "selfjournalparty",
+    "storage_bucket": "selfjournalparty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785372310257:android:769542810e6aff191fd750",
+        "android_client_info": {
+          "package_name": "com.example.selfjournalparty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785372310257-4oq7g907uaculo0jbmddvcd92at1u37s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMsRKM80Omp0c68BZzlXKIdYhL0tC1iCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785372310257-4oq7g907uaculo0jbmddvcd92at1u37s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
