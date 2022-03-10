@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">SelfJournalparty</string>
+    <string name="app_name">SelfJournalParty</string>
+    <string name="title_text">Self Gratitude Journal</string>
+    <string name="grateful_text">What are you grateful for today</string>
+    <string name="get_started_txt">Get Started</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">Login</string>
+    <string name="or_text">or</string>
+    <string name="create_acc_text">create account</string>
+    <string name="username_text">Username</string>
 </resources>

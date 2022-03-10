@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <ProgressBar
+        android:id="@+id/create_acct_progress"
+        android:visibility="gone"
+        style="@android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/acct_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/username_account"
+            android:maxLines="1"
+            android:paddingBottom="16dp"
+            android:inputType="textPersonName"
+            android:hint="@string/username_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:importantForAutofill="no" />
+        <AutoCompleteTextView
+            android:id="@+id/email_account"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/email_text"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColorHint="#A1887F"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/password_account"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/password_text"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColorHint="#78909C" />
+
+        <TextView
+            android:id="@+id/or_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/or_text"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/create_acct_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_acc_text"
+            android:background="@android:color/transparent"
+            android:textColor="@color/purple_700"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
