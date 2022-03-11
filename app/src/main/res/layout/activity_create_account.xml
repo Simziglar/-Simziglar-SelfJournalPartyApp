@@ -49,15 +49,6 @@
             android:maxLines="1"
             android:textColorHint="#78909C" />
 
-        <TextView
-            android:id="@+id/or_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/or_text"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:layout_marginTop="16dp"
-            android:gravity="center_horizontal"/>
         <Button
             android:id="@+id/create_acct_button"
             android:layout_width="match_parent"

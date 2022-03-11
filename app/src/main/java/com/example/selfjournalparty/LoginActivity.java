@@ -20,9 +20,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         signInButton = findViewById(R.id.email_sign_in_button);
-        createAccButton = findViewById(R.id.create_acct_button);
+        createAccButton = findViewById(R.id.create_acct_button_login);
         emailEditText = findViewById(R.id.emailEdit);
-
         progressBar = findViewById(R.id.login_progress);
 
         createAccButton.setOnClickListener(new View.OnClickListener() {
@@ -30,7 +29,6 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(LoginActivity.this, CreateAccountActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
     }

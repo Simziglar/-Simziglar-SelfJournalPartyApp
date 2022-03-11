@@ -57,7 +57,7 @@
             android:layout_marginTop="16dp"
             android:gravity="center_horizontal"/>
         <Button
-            android:id="@+id/create_acct_button"
+            android:id="@+id/create_acct_button_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/create_acc_text"
