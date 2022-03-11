@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Graphics07/AndroidStudioProjects/SelfJournalparty/app/src/main/res/font/roboto_slab_bold.xml" value="0.28541666666666665" />
-        <entry key="..\:/Users/Graphics07/AndroidStudioProjects/SelfJournalparty/app/src/main/res/layout/activity_create_account.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/Graphics07/AndroidStudioProjects/SelfJournalparty/app/src/main/res/layout/activity_create_account.xml" value="0.2552083333333333" />
         <entry key="..\:/Users/Graphics07/AndroidStudioProjects/SelfJournalparty/app/src/main/res/layout/activity_login.xml" value="0.16554054054054054" />
         <entry key="..\:/Users/Graphics07/AndroidStudioProjects/SelfJournalparty/app/src/main/res/layout/activity_main.xml" value="0.16554054054054054" />
+        <entry key="..\:/Users/Graphics07/AndroidStudioProjects/SelfJournalparty/app/src/main/res/layout/activity_post_journal.xml" value="0.2388888888888889" />
       </map>
     </option>
   </component>
