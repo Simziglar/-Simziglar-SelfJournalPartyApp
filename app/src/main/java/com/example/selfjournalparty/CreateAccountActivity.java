@@ -134,8 +134,8 @@ public class CreateAccountActivity extends AppCompatActivity {
 
                                                                     Intent intent = new Intent(CreateAccountActivity.this,
                                                                             PostJournalActivity.class);
-                                                                    intent.putExtra("username", name);
-                                                                    intent.putExtra("userId", currentUserId);
+//                                                                    intent.putExtra("username", name);
+//                                                                    intent.putExtra("userId", currentUserId);
                                                                     startActivity(intent);
 
                                                                 } else {

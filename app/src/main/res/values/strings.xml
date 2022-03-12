@@ -9,4 +9,9 @@
     <string name="or_text">or</string>
     <string name="create_acc_text">create account</string>
     <string name="username_text">Username</string>
+    <string name="post_image_description">Post image</string>
+    <string name="upload_image_text">upload image</string>
+    <string name="title_et_text">Title</string>
+    <string name="your_thoughts_text">Your Thoughts...........</string>
+    <string name="save_post_btn_text">Save</string>
 </resources>
